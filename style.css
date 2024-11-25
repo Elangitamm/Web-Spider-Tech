@@ -1,0 +1,451 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Verdana', sans-serif;
+    font: bold;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FE0000;
+} 
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #FE0000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #FE0000;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FE0000;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #102C57;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;    
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #FE0000;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FE0000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #102C57;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+#digitalservices p {
+    margin: 10px;
+    padding: 1px;
+    line-height: 1.5; 
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.products-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-products {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-products img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.kartu-products p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #FE0000;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#partners {
+.kartu-keunggulan img {
+    width: 400px;
+    border-radius: 80%;
+}
+}
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+    background-color: #102C57;
+}
+
+.footer {
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper-f {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #102C57;
+    border-radius: 15px; 
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.footer-section img {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.footer-section .contact-info img {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #ffffff;
+}
+.social-icons img {
+    width: 20px;
+    vertical-align: middle; 
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FE0000;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tabel-paket {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabel-paket table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tabel-paket th, .tabel-paket td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tabel-paket th {
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabel-paket th:nth-child(2) {
+    background-color: #FE0000;
+}
+
+.tabel-paket td {
+    background-color: #f9f9f9;
+}
+
+.btn-beli {
+    background-color: transparent;
+    color: #FE0000;
+    border: 1px solid #FE0000;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-beli:hover {
+    background-color: #FE0000;
+    color: #ffffff;
+}
+
+.tabel-install-os table {
+    width: 400%;
+    border-collapse: collapse;
+    margin-right: 10%;
+}
+
+.tabel-paket table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tabel-install-os table th,
+.tabel-install-os table td,
+.tabel-paket th,
+.tabel-paket td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tabel-install-os table th,
+.tabel-paket th {
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    width: 10%;
+}
+
+.tabel-install-os table td,
+.tabel-paket td {
+    background-color: #f9f9f9;
+}
+
+.tabel-install-os table th:nth-child(2),
+.tabel-paket th:nth-child(2) {
+    background-color: #FE0000; 
+}
+
+.tabel-install-os table td:nth-child(2),
+.tabel-paket td:nth-child(2) {
+    background-color: #f9f9f9;
+    color: #333; 
+    font-weight: bold;
+}
+
+.tabel-install-os table tr:nth-child(even),
+.tabel-paket tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+/* Button Styles for "Beli" buttons */
+.tabel-install-os .btn-beli,
+.tabel-paket .btn-beli {
+    background-color: transparent;
+    color: #FE0000;
+    border: 1px solid #FE0000;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabel-install-os .btn-beli:hover,
+.tabel-paket .btn-beli:hover {
+    background-color: #FE0000;
+    color: #ffffff;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kartu-products {
+    width: 100%;
+    max-width: 600px; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kartu-products img {
+    width: 100%;
+    max-width: 200px; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.tabel-install-os {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.tabel-install-os table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-install-os th,
+.tabel-install-os td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.tabel-install-os th {
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabel-install-os td {
+    background-color: #f9f9f9;
+}
+
+.tabel-install-os .btn-beli {
+    background-color: transparent;
+    color: #FE0000;
+    border: 1px solid #FE0000;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabel-install-os .btn-beli:hover {
+    background-color: #FE0000;
+    color: #ffffff;
+}
